@@ -1,0 +1,11 @@
+name: drupal-demo
+recipe: drupal8
+config:
+  webroot: web
+  php: '7.4'
+  via: nginx
+  drush: 10
+  xdebug: true
+services:
+  database:
+    type: mariadb:10.1
