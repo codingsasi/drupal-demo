@@ -805,3 +805,6 @@ $databases['default']['default'] = array (
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php') && getenv('LANDO') === 'ON') {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
+if (file_exists($app_root . '/' . $site_path . '/settings.prod.php')) {
+  include $app_root . '/' . $site_path . '/settings.prod.php';
+}

@@ -29,7 +29,7 @@ nbproject/private/config.properties
 nbproject/private
 nbproject/project.properties
 nbproject/project.xml
-
+web/sites/default/settings.prod.php
 #filelog
 logs
 node_modules
